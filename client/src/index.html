@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Webb Applikation REST webtjänst</h1>
+    </header>
+    <div class="container">
+        <h2>Avklarade kurser</h2>
+        <div id="courseHeaders">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Kurskod</td>
+                        <td>Namn</td>
+                        <td>Progression</td>
+                        <td>Kursplan</td>
+                        <td>Radera</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <!--/courseHeaders--> 
+
+        <div id="courses">
+            <!--Courses from database--> 
+        </div>
+        <!--/courses--> 
+        <form>
+            <h2>Lägg till en kurs</h2>
+            <label for="name">Namn:</label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="code">Kurskod:</label>
+            <br>
+            <input type="text" name="code" id="code">
+            <br>
+            <label for="prog">Progression:</label>
+            <br>
+            <input type="text" name="prog" id="prog">
+            <br>
+            <label for="syllabus">Kursplan:</label>
+            <br>
+            <input type="text" name="syllabus" id="syllabus">
+            <br>
+            <input type="submit" value="Lägg till kurs" id="addCourse">
+        </form>
+        <!--/form--> 
+    </div>
+    <!--/container--> 
+</body>
+<script src="js/main.js"></script>
+</html>
