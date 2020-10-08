@@ -4,7 +4,8 @@
 
 This project is an application for consuming a REST webservice. The REST webservice can be found in my "rest_webservice" repo. 
 This application is using Fetch API for GET, POST, PUT (in progress) and DELETE. The REST webservice is uploaded on a public
-server using MySQL which presents courses I have finished at Mid University, Web development program. 
+server using MySQL which presents courses I have finished at Mid University, Web development program. Since this project were
+more focused on functionality and backend programming, the frontend have not been prioritized.
 
 ## How To Use
 
